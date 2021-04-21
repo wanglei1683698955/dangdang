@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/iconfont/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sign.css"/>
+	</head>
+	<body>
+		<div class="logo">
+			<img src="img/download.png" >
+		</div>
+		<div class="login">
+			<div class="login_benner">
+				<img src="img/benner.png" >
+			</div>
+			<div class="login_wrap">
+				<p class="login_wrap_title">账号注册</p>
+				<input type="text" id="username" placeholder="邮箱/昵称/手机号码"/>
+				<span class="iconfont icon-yonghu"></span>
+				<span id="usernameTPis" class="">
+					
+				</span>
+				<input type="password" id="userpass" placeholder="密码"/>
+				<span class="iconfont icon-suo"></span>
+				<span id="userpassTpis" class="">
+					
+				</span>
+				<input type="password" id="notapass" placeholder="确认密码"/>
+				<span class="iconfont icon-gengduo"></span>
+				<span id="notapassTpis" class="">
+					
+				</span>
+				
+				<div class="login_wrap_check">
+					<!-- 注册状态 -->
+					<span id="wrap_text"></span>
+					<a href="login.html" id="wrap_dlButton">立即登录</a>
+				</div>
+				<input type="button" id="wrap_zcButton" value="注 册" />
+			</div>
+		</div>
+		
+		<footer>
+			<!-- 页脚头通栏 -->
+			<div class="footer_tools">
+				<!-- 版心块图 -->
+				<div class="footer_tools_bg">
+					<div class="footer_tools_bg_1">
+						
+					</div>
+					<div class="footer_tools_bg_2">
+						
+					</div>
+					<div class="footer_tools_bg_3">
+						
+					</div>
+				</div>
+			</div>
+			<!-- 页脚身 -->
+			<div class="footer_list">
+				<ul>
+					<li class="footer_list_firstLi">购物指南</li>
+					<li>购物流程</li>
+					<li>发票制度</li>
+					<li>服务协议</li>
+					<li>会员优惠</li>
+				</ul>
+				<ul>
+					<li class="footer_list_firstLi">支付方式</li>
+					<li>网上支付</li>
+					<li>礼品卡支付</li>
+					<li>银行转账</li>
+					<li>礼券支付</li>
+				</ul>
+				<ul>
+					<li class="footer_list_firstLi">订单服务</li>
+					<li>配送服务查询</li>
+					<li>订单状态说明</li>
+					<li>自助取消订单</li>
+					<li>自助修改订单</li>
+				</ul>
+				<ul>
+					<li class="footer_list_firstLi">配送方式</li>
+					<li>当日递</li>
+					<li>次日达</li>
+					<li>订单自取</li>
+					<li>验货与签收</li>
+				</ul>
+				<ul>
+					<li class="footer_list_firstLi">退换货</li>
+					<li>退换货服务查询</li>
+					<li>自助申请退换货</li>
+					<li>退换货进度查询</li>
+					<li>退款方式与时间</li>
+				</ul>
+				<ul>
+					<li class="footer_list_firstLi">商家服务</li>
+					<li>运营服务</li>
+					<li>加入尾品汇</li>
+				</ul>
+			</div>
+			
+			<!-- 页脚底部 -->
+			<div class="foooter_cut_off">
+				<ul class="foooter_about">
+					<li>公司简介</li>
+					<li>诚聘英才</li>
+					<li>网站联盟</li>
+					<li>当当招商</li>
+					<li>机构销售</li>
+					<li>手机当当</li>
+					<li>官方 Blog</li>
+					<li class="foooter_about_clear">热词搜索</li>
+				</ul>
+				<p class="foooter_copy">
+					<span>
+						Copyright  2004 - 2021 当当网. All Rights Reserved
+					</span>
+					<span class="foooter_copy_sep">
+						|
+					</span>
+					<span class="foooter_copy_hov">
+						京ICP备17043473号-1
+					</span>
+					<img src="img/validate.gif" class="foooter_copy_hov">
+					<span>
+						京ICP证041189号
+					</span>
+					<span class="foooter_copy_sep">
+						|
+					</span>
+					<span>
+						出版物经营许可证 新出发京批字第直0673号
+					</span>
+				</p>
+			</div>
+			
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/sign.js"></script>
+	<script type="text/javascript">
+		window.onload = ()=>{
+			signJs();
+		}
+	</script>
+</html>
